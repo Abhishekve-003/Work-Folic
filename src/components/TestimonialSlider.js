@@ -43,6 +43,7 @@ const TestimonialSlider = () => {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
+             padding:"2rem"
           }}
         >
           <Box sx={{ padding: "12px", textAlign: "center" }}>
@@ -61,15 +62,15 @@ const TestimonialSlider = () => {
                 src={image}
                 alt={testimonial.author}
                 sx={{
-                  width: 35,
-                  height: 35,
+                  width: 30,
+                  height: 30,
                   marginRight: "1rem",
                 }}
               />
               <Typography variant="body1">{testimonial.author}</Typography>
             </div>
             <Typography
-              sx={{ color: "gray", fontSize: "x-small" , marginRight:"-2rem"}}
+              sx={{ color: "gray", fontSize: "x-small" , marginRight:"-1rem"}}
               variant="body1"
               color="textSecondary"
             >
