@@ -25,7 +25,7 @@ const testimonials = [
     author: "Casey Bachmeyer",
     position: "Founder, Sisphus Ventures",
   },
-  // Add more testimonials as needed
+  
 ];
 
 const TestimonialSlider = () => {
