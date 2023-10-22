@@ -25,7 +25,7 @@ const SignUp = () => {
   };
 
   return (
-    <Stack spacing={3} sx={{p:9}}>
+    <Stack spacing={3} sx={{p:3}}>
       <Box sx={{padding:"1.6rem"}}>
       <Typography sx={{display:"flex", alignItems:"center", justifyContent:"center", fontWeight: "bold"}} variant="h4">Create an account</Typography>
 
@@ -38,7 +38,7 @@ const SignUp = () => {
           onClick={handleMerchantClick}
           style={{ backgroundColor: merchantActive ? "black" : "white", color: merchantActive ? "white" : "black" }}
         >
-          <AccountBalanceWalletOutlined sx={{ marginRight: "10px" }} />
+          <AccountBalanceWalletOutlined sx={{ marginRight: "0px" }} />
           <Typography variant="body2">Merchant</Typography>
         </Box>
         <Box
@@ -47,7 +47,7 @@ const SignUp = () => {
           onClick={handleAgentClick}
           style={{ backgroundColor: agentActive ? "black" : "white", color: agentActive ? "white" : "black" }}
         >
-          <PeopleOutlined sx={{ marginLeft: "10px" }} />
+          <PeopleOutlined sx={{ marginLeft: "5px" }} />
           <Typography variant="body2">Agent</Typography>
         </Box>
       </div>
