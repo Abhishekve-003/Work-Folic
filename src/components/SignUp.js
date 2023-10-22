@@ -25,7 +25,7 @@ const SignUp = () => {
   };
 
   return (
-    <Stack spacing={3} sx={{p:3}}>
+    <Stack spacing={3} sx={{p:4}}>
       <Box sx={{padding:"1.6rem"}}>
       <Typography sx={{display:"flex", alignItems:"center", justifyContent:"center", fontWeight: "bold"}} variant="h4">Create an account</Typography>
 
