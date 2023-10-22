@@ -73,7 +73,7 @@ const SignUp = () => {
       </Button>
 
       <Typography variant="body2">
-        Already have an account? <a href="/login">Log In</a>
+        Already have an account? <a href="login">Log In</a>
       </Typography>
     </Stack>
   );
